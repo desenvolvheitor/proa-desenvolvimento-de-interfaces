@@ -141,17 +141,17 @@ main{
 }
 
 #caixa1{
-    background-image: url(../imagens/IMG-20250820-WA0294.jpg);
+    background-image: url(../images/estrada.jpg);
     background-size: cover;
 }
 
 #caixa2{
-    background-image: url(../imagens/IMG-20250820-WA0292.jpg);
+    background-image: url(../images/paisagem.jpg);
     background-size: cover;
 }
 
 #caixa3{
-    background-image: url(../imagens/IMG-20250820-WA0306.jpg    );
+    background-image: url(../images/sol.jpg);
     background-size: cover;
 }
 
