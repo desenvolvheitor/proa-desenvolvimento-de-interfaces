@@ -1,0 +1,108 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    position: relative;
+}
+
+main{
+    width: 90%;
+    height: 730px;
+    text-align: center;
+    margin: auto;
+    background-color: #0f0;
+    font-size: 40px;
+    font-family: verdana;
+    color: #fff;
+}
+
+header{
+    background-color: #000;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#nav_do_header{
+    background-color: #00f;
+    text-align: left;
+    height: 40px;
+}
+
+#nav_central{
+    float: left;
+    width: 20%;
+    background-color: #cca;
+    height: 525px;
+}
+
+section{
+    margin-top: 0;
+    background-color: #fcf;
+    float: left;
+    width: 60%;
+    height: 525px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+section header{
+    background-color: #fff;
+    color: #000;
+    font-size: 20px;
+    width: 95%;
+    height: 45px;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+#div_marrom{
+    background-color: #961;
+    width: 95%;
+    height: 170px;
+}
+
+p{
+    font-size: 12px;
+    text-align: left;
+    width: 95%;
+    background-color: #cdf;
+    color: #000;
+    height: 100px;
+}
+
+#tres_divs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 95%;
+}
+
+#tres_divs div{
+    background-color: #666;
+    height: 120px;
+    width: 32%;
+}
+
+aside{
+    float: left;
+    background-color: #f0f;
+    width: 20%;
+    height: 525px;
+}
+
+footer{
+    clear: left;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    height: 65px;
+    background-color: #000;
+}

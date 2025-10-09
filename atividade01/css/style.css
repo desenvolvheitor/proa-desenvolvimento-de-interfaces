@@ -1,0 +1,63 @@
+#fundo{
+    position: relative;
+    width: 80%;
+    height: 700px;
+    margin: auto;
+    margin-top: 5px;
+}
+
+#topo{
+    position: relative;
+    height: 110px;
+    padding-top: 40px;
+    text-align: center;
+    background-color: #20b2aa;
+    font-size: 50px;
+}
+
+#menu_esquerda{
+    position: relative;
+    background-color: #a2b5cd;
+    float: left;
+    height: 75%;
+    width: 10%;
+}
+
+#conteudo{
+    position: relative;
+    float: left;
+    width: 75%;
+    height: 75%;
+    background-color: #aaaaaa;
+}
+
+#menu_direita{
+    position: relative;
+    background-color: #a2b5cd;
+    float: left;
+    width: 15%;
+    height: 75%;
+}
+
+#menu_direita div{
+    position: relative;
+    width: 92%;
+    height: 130px;
+    background-color: #fff;
+    margin: auto;
+    margin-bottom: 5px;
+}
+
+#rodape{
+    position: relative;
+    clear: left;
+    background-color: #20b2ff;
+    height: 5%;
+}
+
+#camera{
+    position: absolute;
+    bottom: 40px;
+    right: 150px;
+    z-index: 3;
+}
