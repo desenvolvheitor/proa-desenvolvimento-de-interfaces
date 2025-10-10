@@ -208,3 +208,68 @@ footer nav a{
 footer nav a img{
     width: 100%;
 }
+
+@media only screen and (max-width:480px){
+    .apresentacao_loja{
+        flex-direction: column-reverse;
+        height: 640px;
+    }
+
+    .apresentacao_loja img{
+        width: 95%;
+        height: auto;
+    }
+    
+    .nossa_loja{
+        padding: 15px 20px;
+        background-color: #ba8a8a;
+        width: 95%;
+        height: 400px;
+    }
+
+    .nossa_loja h1{
+        margin-bottom: 10px;
+    }
+
+    .lista_produtos{
+        flex-direction: column;
+    }
+
+    .produto{
+        height: 190px;
+    }
+
+    .apresentacao_loja2{
+        flex-direction: column-reverse;
+        height: 420px;
+        padding: 15px;
+    }
+
+    .apresentacao_loja2 .nossa_loja{
+        margin-bottom: 10px;
+    }
+
+    .apresentacao_loja2 iframe, .apresentacao_loja2 .nossa_loja{
+        width: 100%;
+    }
+
+    .formulario_redes{
+        flex-direction: column;
+    }
+    
+    .formulario_redes form{
+        width: 100%;
+    }
+
+    .redes_sociais{
+        width: 95%;
+        margin: auto;
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    footer nav{
+        width: 45%;
+    }
+
+}
