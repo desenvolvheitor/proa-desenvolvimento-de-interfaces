@@ -1,0 +1,210 @@
+*{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(../images/guitarra_fundo_body.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw 100vh;
+    background-attachment: fixed;
+}
+
+main{
+    width: 90%;
+    margin: auto;
+    font-family: verdana;
+    background-color: rgba(100, 0, 0, 0.5);
+}
+
+header{
+    height: 150px;
+    background-image: url(../images/guitarras_header.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav_header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-right: 60px;
+}
+
+.link_nav_header{
+    text-decoration: none;
+    color: #641415;
+    padding: 10px 15px;
+    font-size: 13px;
+}
+
+.apresentacao_loja{
+    background-color: #ba1211;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.nossa_loja{
+    padding: 25px 30px;
+    font-size: 15px;
+}
+
+.nossa_loja h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.nossa_loja, .apresentacao_loja img{
+    background-color: #ba8a8a;
+    width: 45%;
+    height: 280px;
+}
+
+.lista_produtos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #f2fcfd;
+    padding: 20px;
+}
+
+.produto{
+    background-color: #f9fbfa;
+    height: 280px;
+}
+
+.img_produto{
+    width: 45%;
+    aspect-ratio: 1/1;
+}
+
+.preco_produto{
+    color: #dd1f2b;
+}
+
+.apresentacao_loja2{
+    background-color: #ba5511;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.apresentacao_loja2 iframe{
+    width: 45%;
+    height: 280px;
+    border:0;
+    border-radius: 10px;
+}
+
+.formulario_redes{
+    display: flex;
+    flex-direction: row;
+    margin-top: 10px;
+    background-color: #fff;
+    width: 98%;
+}
+
+.formulario_redes form{
+    width: 50%;
+    padding: 20px 40px 10px 40px;
+}
+
+.formulario_redes form input{
+    border-radius: 5px;
+    padding-left: 10px;
+    margin-bottom: 15px;
+    width: 100%;
+    height: 40px;
+    border: 1px solid;
+}
+
+.formulario_redes form textarea{
+    width: 60%;
+    height: 150px;
+    margin-bottom: 15px;
+    border: 1px solid #000;
+    border-radius: 5px;
+}
+
+.botao_enviar{
+    cursor: pointer;
+}
+
+.redes_sociais{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 50%;
+    color: #04018e;
+}
+
+.redes_sociais h2{
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+.redes_sociais nav{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.redes_sociais nav a{
+    width: 32%;
+}
+
+.redes_sociais nav a img{
+    width: 100%;
+}
+
+footer{
+    margin-top: 10px;
+    padding: 15px;
+    background-color: #000;
+    color: #bfc4c1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+}
+
+footer nav{
+    width: 15%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 15px;
+}
+
+footer nav a{
+    width: 20%;
+}
+
+footer nav a img{
+    width: 100%;
+}
