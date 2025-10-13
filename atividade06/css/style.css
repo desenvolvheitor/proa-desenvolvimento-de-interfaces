@@ -1,0 +1,87 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+
+main{
+    width: 95%;
+    margin: auto;
+    background-color: #c67271;
+    font-family: verdana;
+}
+
+.limao, .vermelha, .azul, .laranja, .amarela{
+    margin-bottom: 10px;
+}
+
+.limao{
+    background-color: #b3ea1d;
+    height: 180px;
+}
+
+.vermelha{
+    background-color: #ba1211;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.rosa{
+    background-color: #ba8a8a;
+    width: 45%;
+    height: 360px;
+    padding: 25px;
+}
+
+.azul{
+    background-color: #81e1e0;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.branca{
+    background-color: #f9fbfa;
+    height: 370px;
+    width: 20%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.laranja{
+    background-color: #ba5511;
+    height: 400px;
+}
+
+.amarela{
+    background-color: #ffff00;
+    height: 400px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.azul_escuro, .verde{
+    height: 380px;
+    width: 45%;
+}
+
+.azul_escuro{
+    background-color: #191973
+}
+
+.verde{
+    background-color: #3ec3c2;
+}
+
+.preta{
+    background-color: #000000;
+    height: 180px;
+}
