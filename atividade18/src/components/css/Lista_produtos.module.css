@@ -1,0 +1,35 @@
+.lista_produtos{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    text-align: center;
+    font-size: 14px;
+    text-transform: uppercase;
+    background-color: #f2fcfd;
+    padding: 20px;
+}
+
+.produto{
+    background-color: #f9fbfa;
+    height: 280px;
+}
+
+.img_produto{
+    width: 45%;
+    aspect-ratio: 1/1;
+}
+
+.preco_produto{
+    color: #dd1f2b;
+}
+
+@media only screen and (max-width:480px){
+    .lista_produtos{
+        flex-direction: column;
+    }
+
+    .produto{
+        height: 210px;
+    }
+}

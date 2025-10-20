@@ -1,0 +1,13 @@
+body{
+  background-image: url(./assets/images/guitarra_fundo_body.jpg);
+  background-repeat: no-repeat;
+  background-size: 100vw 100vh;
+  background-attachment: fixed;
+}
+
+main{
+  width: 90%;
+  margin: auto;
+  font-family: verdana;
+  background-color: rgba(100, 0, 0, 0.5);
+}

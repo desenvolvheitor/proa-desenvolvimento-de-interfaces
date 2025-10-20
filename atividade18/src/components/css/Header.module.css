@@ -1,0 +1,24 @@
+header{
+    height: 150px;
+    background-image: url(../../assets/images/guitarras_header.jpg);
+    background-size: cover;
+    background-position: center center;
+    display: flex;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.nav_header{
+    background-color: #fff;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 24px;
+    margin-right: 60px;
+}
+
+.link_nav_header{
+    text-decoration: none;
+    color: #641415;
+    padding: 10px 15px;
+    font-size: 13px;
+}

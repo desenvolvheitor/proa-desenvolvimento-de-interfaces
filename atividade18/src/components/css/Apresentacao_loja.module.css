@@ -1,0 +1,49 @@
+.apresentacao_loja{
+    background-color: #ba1211;
+    color: #fff;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    height: 350px;
+    margin-top: 10px;
+}
+
+.nossa_loja{
+    padding: 25px 30px;
+    font-size: 15px;
+}
+
+.nossa_loja h1{
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.nossa_loja, .apresentacao_loja img{
+    background-color: #ba8a8a;
+    width: 45%;
+    height: 280px;
+}
+
+@media only screen and (max-width:480px){
+    .apresentacao_loja{
+        flex-direction: column-reverse;
+        height: 640px;
+    }
+
+    .apresentacao_loja img{
+        width: 95%;
+        height: auto;
+    }
+    
+    .nossa_loja{
+        padding: 15px 20px;
+        background-color: #ba8a8a;
+        width: 95%;
+        height: 400px;
+    }
+
+    .nossa_loja h1{
+        margin-bottom: 10px;
+    }
+}
