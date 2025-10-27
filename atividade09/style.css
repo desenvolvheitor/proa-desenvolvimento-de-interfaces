@@ -11,17 +11,31 @@ body{
     height: 100vh;
 }
 
+header{
+    padding: 10px;
+}
+
 header, .direita_header{
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
+    height: 8vh;
+    gap: 20px;
+}
+
+header nav{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 25%;
 }
 
 .container{
     display: flex;
     flex-direction: row;
-
+    height: 92vh;
 }
 
 a{
@@ -34,10 +48,25 @@ a{
     padding: 10px 20px;
 }
 
+.botao_verde,.saiba_mais{
+    background-color: #007c89;
+    color: #fff;
+}
+
+.botao_verde{
+    padding: 10px 20px;
+}
+
 .esquerda{
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
-    text-align: left;
+    padding-left: 12vw;
+}
+
+.saiba_mais{
+    padding: 15px 30px;
+    text-align: center;
+    width: 20%;
+    font-weight: bold;
 }
