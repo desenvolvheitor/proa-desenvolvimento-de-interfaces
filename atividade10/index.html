@@ -1,48 +1,220 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Atividade 10</title>
-    <link rel="stylesheet" href="css/style.css" type="text/css">
-    <link rel="icon" href="./images/favicon.ico">
+    <title>YouTube</title>
+    <link rel="shortcut icon" href="https://www.youtube.com/s/desktop/9123e71c/img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
 </head>
-
 <body>
-    <header>
-        <img src="./images/netflix_logo.png" alt="Netflix" class="logo_netflix">
-        <nav>
-            <a href="#">Início</a>
-            <a href="#">Séries</a>
-            <a href="#">Filmes</a>
-            <a href="#">Jogos</a>
-            <a href="#">Bombando</a>
-            <a href="#">Minha lista</a>
-            <a href="#">Navegar por idiomas</a>
-        </nav>
-        <div>
-            <svg viewBox="0 0 24 24" width="24" height="24" data-icon="MagnifyingGlassMedium" data-icon-id=":r0:"
-                aria-hidden="true" class="search-icon" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-                <path fill="#ffffff" fill-rule="evenodd"
-                    d="M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0m-1.38 7.03a9 9 0 1 1 1.41-1.41l5.68 5.67-1.42 1.42z"
-                    clip-rule="evenodd"></path>
-            </svg>
-            <svg viewBox="0 0 24 24" width="24" height="24" data-icon="BellMedium" data-icon-id=":r1:"
-                aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" role="img">
-                <path fill="#ffffff" fill-rule="evenodd"
-                    d="M13 4.07A7 7 0 0 1 19 11v4.25q1.58.12 3.1.28l-.2 2a93 93 0 0 0-19.8 0l-.2-2q1.52-.15 3.1-.28V11a7 7 0 0 1 6-6.93V2h2zm4 11.06V11a5 5 0 0 0-10 0v4.13a97 97 0 0 1 10 0m-8.37 4.24C8.66 20.52 10.15 22 12 22s3.34-1.48 3.37-2.63c.01-.22-.2-.37-.42-.37h-5.9c-.23 0-.43.15-.42.37"
-                    clip-rule="evenodd"></path>
-            </svg>
-            <img src="./images/perfil.png" alt="Imagem de perfil">
+    <header class="cabecalho">
+        <div class="menu-logo">
+            <i class="fas fa-bars icone-menu"></i>
+            <div class="logo-youtube">
+                <i class="fab fa-youtube"></i>
+                <span>YouTube</span>
+            </div>
+        </div>
+
+        <div class="area-busca">
+            <form class="formulario-busca">
+                <input type="text" placeholder="Pesquisar">
+                <button type="button">
+                    <i class="fas fa-search"></i>
+                </button>
+            </form>
+            <div class="botao-microfone">
+                <i class="fas fa-microphone"></i>
+            </div>
+        </div>
+
+        <div class="icones-usuario">
+            <i class="fas fa-video"></i>
+            <i class="fas fa-bell"></i>
+            <div class="avatar-usuario">H</div>
         </div>
     </header>
-    <main>
-        <section class="os_donos_do_jogo">
 
-        </section>
+    <div class="container-principal">
+        <nav class="menu-lateral">
+            <div class="item-menu ativo">
+                <i class="fas fa-home"></i>
+                <span>Início</span>
+            </div>
+            <div class="item-menu">
+                <i class="fas fa-fire"></i>
+                <span>Shorts</span>
+            </div>
+            <div class="item-menu">
+                <i class="fas fa-play-circle"></i>
+                <span>Inscrições</span>
+            </div>
+            <div class="linha-divisoria"></div>
+            <div class="item-menu">
+                <i class="fas fa-history"></i>
+                <span>Histórico</span>
+            </div>
+            <div class="item-menu">
+                <i class="fas fa-clock"></i>
+                <span>Assistir mais tarde</span>
+            </div>
+        </nav>
 
-    </main>
+        <main class="conteudo">
+            <div class="filtros">
+                <button class="chip ativo">Tudo</button>
+                <button class="chip">Jogos</button>
+                <button class="chip">Música</button>
+                <button class="chip">Ao vivo</button>
+                <button class="chip">Programação</button>
+                <button class="chip">Futebol</button>
+                <button class="chip">React</button>
+                <button class="chip">Podcasts</button>
+            </div>
+
+            <div class="grade-videos">
+                
+                <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/D5gsT56WeT8/hq720.jpg" alt="Video">
+                        <span class="tempo">35:15</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/leQUlrkoY_SOgw-hDKUDj92M1atv5b_33EwHMthRCP3EZYYQEDAy_NxmWmXNqSWkMniom9F_Yuo=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>24 HORAS COMPRANDO TUDO QUE APARECER NO INSTAGRAM! - React Balian</h3>
+                            <p class="nome-canal">Bruninzor</p>
+                            <p class="visualizacoes">223 mil visualizações • há 2 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/ST2Af2vU3nE/hq720.jpg" alt="Video">
+                        <span class="tempo">45:00</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/40mmojzkhCn358UZr-TLUvcTWdKV2hBrhHDmmj7Cw5qkf5pxO6RyyrsOOP3a2X8BwWRB0B0dGyY=s88-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>LVCAS - bico do corvo (Clipe Oficial)</h3>
+                            <p class="nome-canal">LVCAS</p>
+                            <p class="visualizacoes">79 mil visualizações • Há 5 dias</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/nTTppdGt8F4/hq720.jpg" alt="Video">
+                        <span class="tempo">31:13</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/ThDrz2k7celVJdg6r-mOmowj0DWh6o2pt9nMCXRHJMbdStp7r6wVtXWE62jqfQIy-iHyKyZkIw=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>QUEM É HUMORISTA? FT. RENATO ALBANI</h3>
+                            <p class="nome-canal">Aqueles Caras</p>
+                            <p class="visualizacoes">1,1 mi visualizações • há 1 dia</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/P4SIWWMEMsg/hq720.jpg" alt="Video">
+                        <span class="tempo">41:26</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/eTuD86rbo5IMQZaZabUBNIOvM2UP0uFw4WUQQ6eu8zlnstpAPQURq--ZE0GUDNyWpnJFi-Xf=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>BRINO VS 10 PSICÓLOGOS - NoodTv</h3>
+                            <p class="nome-canal">NOOD TV</p>
+                            <p class="visualizacoes">3,9 mi de visualizações • há 1 ano</p>
+                        </div>
+                    </div>
+                </div>
+
+<div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/Y8zgFjLyyeo/hq720.jpg" alt="Video">
+                        <span class="tempo">23:06</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/QSC3tvHNaeCgvXVxgCiR3JVOUgvfT1OVMttD_YrHKiXsO4eN6DAk5HE8VTBUf0wVzqh-X6n2=s88-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>ANALISANDO DADOS DE UM EVENTO - 3 sêniors vs. 3 júniors (mas com IA) - Codecon</h3>
+                            <p class="nome-canal">Codecon</p>
+                            <p class="visualizacoes">263 mil visualizações • há 3 meses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/-_FXDCeiL3g/hq720.jpg" alt="Video">
+                        <span class="tempo">16:35</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/6ZMLayvP5HkX4mgU6ELfDwAl0AWFITQ43mSH7xPcXmxaRkGLbN54ugeeJ5AfY6OgAzTT71MZ=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>Dá ruim ficar ACENDENDO e APAGANDO a LUZ? Nós testamos!</h3>
+                            <p class="nome-canal">Manual do Mundo <i class="fas fa-check-circle" style="font-size: 12px;"></i></p>
+                            <p class="visualizacoes">1,7 mi de visualizações • há 5 meses</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/ezEMwH6FD1A/hq720.jpg" alt="Video">
+                        <span class="tempo">5:05</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/de7OJqfOm5j5pCEYE4Xje9Fg2BK0jK6W_MYYvPHE6T-YCYeQzCdOlJTuU2W07Mz_T7c7ozIh=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>YOUTUBERS REAGINDO AO ZERO JOGANDO TERMO KKKKKKKKKKKKK</h3>
+                            <p class="nome-canal">Sid Clips</p>
+                            <p class="visualizacoes">642 mil visualizações • há 3 anos</p>
+                        </div>
+                    </div>
+                </div>
+
+                 <div class="cartao-video">
+                    <div class="thumbnail">
+                        <img src="https://i.ytimg.com/vi/a74GqqgA4Eo/hqdefault.jpg" alt="Video">
+                        <span class="tempo">11:05</span>
+                    </div>
+                    <div class="info-video">
+                        <div class="icone-canal">
+                            <img src="https://yt3.ggpht.com/ytc/AIdro_nPxYunxVjAMWe9ylwaYLp_ZOcgNByWxisMQxwGj3gtNbA=s68-c-k-c0x00ffffff-no-rj" alt="Avatar">
+                        </div>
+                        <div class="detalhes">
+                            <h3>brino vs balela (ALERTA DE MITADA)</h3>
+                            <p class="nome-canal">orochidois</p>
+                            <p class="visualizacoes">1,4 mi visualizações • há 7 meses</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </main>
+    </div>
+
 </body>
-
 </html>
